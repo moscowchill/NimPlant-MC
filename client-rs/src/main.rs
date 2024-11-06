@@ -9,7 +9,7 @@ mod app;
 
 fn main() {
     // Allocate a console if we're in debug mode
-    app::debug::allocate_console_debug_only();
+    //app::debug::allocate_console_debug_only();
 
     // Self-delete the binary if the feature is enabled
     #[cfg(feature = "selfdelete")]

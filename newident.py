@@ -1,6 +1,8 @@
 import zlib
 import base64
 
+#sidenote for compiling rust client "$env:RUSTFLAGS="-L C:\msys64\mingw64\lib""
+
 def encode_ident_string(input_string):
     # Compress the input string using zlib
     compressed_data = zlib.compress(input_string.encode())
@@ -16,3 +18,4 @@ if __name__ == "__main__":
     encoded_string = encode_ident_string(user_input)
     
     print(f"Encoded string to replace b_ident: {encoded_string}")
+
