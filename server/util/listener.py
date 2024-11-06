@@ -41,7 +41,7 @@ try:
     if listener_type == "HTTPS":
         ssl_cert_path = config["listener"]["sslCertPath"]
         ssl_key_path = config["listener"]["sslKeyPath"]
-    B_IDENT = b"789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650"
+    B_IDENT = b"789C0BCFCC4BC92F2FD60D2D48492C49D50D4E2D2A4B2DD23734D633D63337303034D43334B3305470CEC94CCD2BD10D28CA2FC94FCECFD1070A03001EEA11F6"
 except KeyError as e:
     nimplant_print(
         f"ERROR: Could not load configuration, check your 'config.toml': {str(e)}"
